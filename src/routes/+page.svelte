@@ -1,5 +1,4 @@
 <script lang="ts">
-	import Footer from '$lib/Footer.svelte'
 	import Header from '$lib/Header.svelte'
 	import LoadingIndicator from '$lib/Loading.svelte'
 	const categoryTypes = [
@@ -224,5 +223,4 @@
 			{/if}
 		{/each}
 	{/if}
-	<Footer />
 </div>
